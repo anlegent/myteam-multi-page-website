@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+display: flex;
+flex-direction: column;
+}
+
+.font-family {
+font-family: "Livvic", sans-serif;
+size: 18px;
+}
+
+.font-italic{
+font-style: italic;
+}
+
+.opacity-60 {
+opacity: 60%;
+}
+
+.opacity-80 {
+opacity: 80%;
+}
+.remove-marker {
+list-style-type: none;
+}
+
+.midnight-green {
+color: #014E56;
+}
+
+.light-coral{
+color: #f67e7e;
+}
+
+.white {
+color: #ffffff;
+}
+
+.rapture-blue {
+color: #79c8c7;
+}
+
+.police-blue {
+color: #2C6269;
+}
+
+.deep-jungle-green {
+color: #004047;
+}
+
+.sacramento-state-green {
+color: #012f34;
+}
+
+.dark-green {
+color: #002529;
+}
+
+header {
+background-color: #014E56;
+}
+
+.section-services {
+background-color: #012f34;
+}
+
+.section-successes {
+background-color: #004047;
+}
+
+.avatar-successes {
+width: 3.875rem;
+border: 2px solid #79c8c7;
+border-radius: 50%;
+}
+
+.section-contact {
+background-color: #f67e7e;
+}
+
+.contact-border {
+border: 2px solid #012f34;
+}
+
+.contact-form {
+background-color: #014E56;
+}
+
+.section-socials {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.socials {
+display: inline;
+}
+
+footer {
+background-color: #002529;
+}
+
+.section-directors {
+background-color: #004047;
+}
+
+.avatar-directors {
+width: 6rem;
+border: 2px solid #79c8c7;
+border-radius: 50%;
+} 
+
+.cross {
+background-color: #f67e7e;
+border: 15px solid #f67e7e;
+border-radius: 50%;
+}
+
+.section-clients {
+background-color: #012f34;
+}
+
+@media screen and (max-width:768px) {
+
+.myteam-logo {
+margin-bottom: 50px;
+}
+
+.main-title {
+margin-bottom: 20px;
+display: flex;
+justify-content: center;
+text-align: center;
+}
+
+.main-title-span {
+margin-left: 10px;
+}
+
+.main-title-parag {
+padding-bottom: 70px;
+display: flex;
+justify-content: center;
+text-align: center;
+}
+
+.services-title {
+padding-top: 50px;
+margin-bottom:40px ;
+text-align: start;
+}
+
+.services-image {
+
+}
+
+.services-sub {
+margin-top: 10px;
+margin-bottom: 10px;
+display: flex;
+justify-content: center;
+text-align: center;
+}
+
+.services-parag {
+margin-bottom: 50px;
+display: flex;
+justify-content: center;
+text-align: center;
+}
+
+.services-parag-last {
+padding-bottom: 50px;
+display: flex;
+justify-content: center;
+text-align: center;
+}
+
+.successes-title {
+padding-top: 50px;
+margin-bottom: 30px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+}
+
+.successes-parag {
+display: flex;
+justify-content: center;
+text-align: center;
+}
+
+.avatar-successes {
+margin-bottom: 50px;
+}
+
+.get-started-parag {
+padding-top: 25px;
+}
+
+address {
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+}
+
+.home-link {
+
+}
+
+.about-link{
+
+}
+
+}
+
