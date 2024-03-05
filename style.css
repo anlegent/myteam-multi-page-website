@@ -60,6 +60,12 @@ color: #012f34;
 color: #002529;
 }
 
+.center {
+display: flex;
+justify-content: center;
+text-align: center;
+}
+
 header {
 background-color: #014E56;
 }
@@ -82,10 +88,6 @@ border-radius: 50%;
 background-color: #f67e7e;
 }
 
-.contact-border {
-border: 2px solid #012f34;
-}
-
 .contact-form {
 background-color: #014E56;
 }
@@ -96,13 +98,16 @@ align-items: center;
 justify-content: center;
 }
 
-
 .socials {
 display: inline;
 }
 
 footer {
 background-color: #002529;
+}
+
+.footer-nav {
+display: inline;
 }
 
 .section-directors {
@@ -125,99 +130,6 @@ border-radius: 50%;
 background-color: #012f34;
 }
 
-@media screen and (max-width:768px) {
-
-.myteam-logo {
-margin-bottom: 50px;
-}
-
-.main-title {
-margin-bottom: 20px;
-display: flex;
-justify-content: center;
-text-align: center;
-}
-
-.main-title-span {
-margin-left: 10px;
-}
-
-.main-title-parag {
-padding-bottom: 70px;
-display: flex;
-justify-content: center;
-text-align: center;
-}
-
-.services-title {
-padding-top: 50px;
-margin-bottom:40px ;
-text-align: start;
-}
-
-.services-image {
+@media screen and (min-width:640px) {
 
 }
-
-.services-sub {
-margin-top: 10px;
-margin-bottom: 10px;
-display: flex;
-justify-content: center;
-text-align: center;
-}
-
-.services-parag {
-margin-bottom: 50px;
-display: flex;
-justify-content: center;
-text-align: center;
-}
-
-.services-parag-last {
-padding-bottom: 50px;
-display: flex;
-justify-content: center;
-text-align: center;
-}
-
-.successes-title {
-padding-top: 50px;
-margin-bottom: 30px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-text-align: center;
-}
-
-.successes-parag {
-display: flex;
-justify-content: center;
-text-align: center;
-}
-
-.avatar-successes {
-margin-bottom: 50px;
-}
-
-.get-started-parag {
-padding-top: 25px;
-}
-
-address {
-display: flex;
-flex-direction: column;
-justify-content: center;
-text-align: center;
-}
-
-.home-link {
-
-}
-
-.about-link{
-
-}
-
-}
-
